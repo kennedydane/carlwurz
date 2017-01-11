@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+
+      <div class="card text-left">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home" role="tab" data-toggle="tab"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" role="tab" data-toggle="tab"><i class="fa fa-address-card-o"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-block">
+          <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel">
+              <h1 class="card-title">Carl Wurz</h1>
+              <h4>Counselling Psychologist</h4>
+              <img class="img-fluid float-left" src="static/Carl_Wurz.jpg" style="max-width:25%; height: auto;">
+              <p class="card-text">I am a counselling psychologist working in Port Alfred.  I also have a practice in Grahamstown on Wednesdays.  I work with clients of all ages, including children (play therapy).  I qualified as a Counselling Psychologist at Rhodes University and am registered with the Health Professionals Council of South Africa. I have a holistic approach to therapy.   Whereas my therapeutic modality is principally psychoanalytic, I also combine aspects of physiology, neuroscience and mindfulness when working with clients. I also do neuropsychological and career assessments for children and adults. I am fluent in both English and Afrikaans.
+              </p>
+              
+            </div>
+            <div class="tab-pane" id="contact" role="tabpanel">
+              <h1 class="card-title">Contact Details</h1>
+              <p class="card-text">
+                <dl>
+                  <dt>Email address</dt>
+                  <dd>carl@carlwurz.co.za</dd>
+                  <dt>Cell</dt>
+                  <dd>082 908 1588</dd>
+                  <dt>Port Alfred (Monday, Tuesday, Thursday, Friday)</dt>
+                  <dd>
+                    <address>4 Cove Lane</address>
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#PortAlfredModal">View Map</button>
+                  </dd>
+                  
+                  <dt>Grahamstown (Wednesday)</dt>
+                  <dd>   
+                    <address>Health and Sports Centre, African Street</address>
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#GrahamstownModal">View Map</button>
+                  </dd>
+                </dl>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="PortAlfredModal" tabindex="-1" role="dialog" aria-labelledby="PAModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">4 Cove Lane, Port Alfred</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sza!4v1484143929086!6m8!1m7!1sq5c82LSTNWvI3nJhziT62w!2m2!1d-33.60107787375564!2d26.89396554354312!3f93!4f0!5f0.7820865974627469"  frameborder="0" style="border:0; width:600px; height:400px;" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="GrahamstownModal" tabindex="-1" role="dialog" aria-labelledby="GTModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Health and Sports Centre, African Street</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.6059259735271!2d26.5223749864962!3d-33.30773677934629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e8dcc920548706f!2sHealth+%26+Sport+Centre!5e0!3m2!1sen!2sza!4v1484144560080" frameborder="0" style="border:0; width:600px; height:400px;" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
