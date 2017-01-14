@@ -119,10 +119,10 @@
       <div class="tab-content">
         <div id="home" class="tab-pane active">
           <div class="row" style="background-color: #9A434C; color: white;">
-            <div class="col-xs-12 col-sm-6 col-md-2">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
               <img class="pull-left img-responsive" src="static/Carl_Wurz_sm.jpg" style="max-width: 100%; height:auto;">
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-10">
+            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-10">
               <h1>Carl Wurz<br /><small>Counselling Psychologist</small></h1>
             </div>
           </div>
@@ -134,28 +134,83 @@
         </div>
 
         <div id="contact" class="tab-pane">
-            <dl>
-              <dt><i class="fa fa-address-card-o"></i> Email address</dt>
-              <dd>carl@carlwurz.co.za</dd>
-              <dt><i class="fa fa-phone"></i> Cell</dt>
-              <dd>082 908 1588</dd>
-              <dt><a href="https://web.facebook.com/Carl-Wurz-Psychologist-107452659756773/"><i class="fa fa-facebook-official"></i> Facebook</a></dt>
-              <dd><a href="https://web.facebook.com/Carl-Wurz-Psychologist-107452659756773/">Carl  Wurz Psychologist</a></dd>
-              <dt><a href="https://goo.gl/maps/nxPsQRYMnPq" target="_blank">Port Alfred</a> (Monday, Tuesday, Thursday, Friday)</dt>
-              <dd>
-                <address>4 Cove Lane</address>
-                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#PortAlfredModal"><i class="fa fa-map"></i> View Map</button>
-              </dd>
-              <dt><a href="https://goo.gl/maps/AYEfFDFMpvr" target="_blank">Grahamstown</a> (Wednesday)</dt>
-              <dd>   
-                <address>Health and Sports Centre, African Street</address>
-                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#GrahamstownModal"><i class="fa fa-map"></i> View Map</button>
-              </dd>
-            </dl>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-heading"><h4>Email Address</h4></div>
+                <div class="panel-body">carl@carlwurz.co.za</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-heading"><h4>Cell Number</h4></div>
+                <div class="panel-body">082 908 1588</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-heading"><h4>Online</h4></div>
+                <div class="panel-body">
+                  <a href="https://web.facebook.com/Carl-Wurz-Psychologist-107452659756773/"><i class="fa fa-facebook-official"></i> Facebook</a>
+                  <a herf="https://www.linkedin.com/in/carl-wurz-39975915"><i class="fa fa-linkedin-square"></i> Linkedin</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-heading"><h4>Port Alfred <small>(Monday, Tuesday, Thursday, Friday)</small></h4></div>
+                <div class="panel-body">
+                  <a href="https://goo.gl/maps/nxPsQRYMnPq" target="_blank">4 Cove Lane</a>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#PortAlfredModal"><i class="fa fa-map"></i> View Map</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-heading"><h4>Grahamstown <small>(Wednesday)</small></h4></div>
+                <div class="panel-body">
+                  <a href="https://goo.gl/maps/AYEfFDFMpvr" target="_blank">Health and Sports Centre, African Street</a>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#GrahamstownModal"><i class="fa fa-map"></i> View Map</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div></div>
   </div>
+
+         <div class="modal fade" id="PortAlfredModal" tabindex="-1" role="dialog" aria-labelledby="PAModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">4 Cove Lane, Port Alfred</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sza!4v1484143929086!6m8!1m7!1sq5c82LSTNWvI3nJhziT62w!2m2!1d-33.60107787375564!2d26.89396554354312!3f93!4f0!5f0.7820865974627469"  frameborder="0" style="border:0; width:600px; height:400px;" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="GrahamstownModal" tabindex="-1" role="dialog" aria-labelledby="GTModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Health and Sports Centre, African Street</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.6059259735271!2d26.5223749864962!3d-33.30773677934629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e8dcc920548706f!2sHealth+%26+Sport+Centre!5e0!3m2!1sen!2sza!4v1484144560080" frameborder="0" style="border:0; width:600px; height:400px;" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
