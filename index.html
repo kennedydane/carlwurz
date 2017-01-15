@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Extra meta tags -->
+    <meta name="description" content="Carl Wurz, counselling psychologist, practicing in Port Alfred and Grahamstown">
+    <meta name="keywords" content="Carl Wurz, counselling, psychology, psychologist, Grahamstown, Port Alred">
+    <meta name="author" content="Carl Wurz">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -15,23 +19,23 @@
       <div class="row">
         <div class="col-md-12">
           <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-            <li><a data-toggle="tab" href="#contact">Contact</a></li>
+            <li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-home"></i> Home</a></li>
+            <li><a data-toggle="tab" href="#contact"><i class="fa fa-address-card"></i>Contact</a></li>
           </ul>
 
-          <div class="tab-content">
+          <div class="tab-content" itemscope itemtype="http://schema.org/Person">
             <div id="home" class="tab-pane active">
               <div class="row" style="background-color: #9A434C; color: white;">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" itemprop="image">
                   <img class="pull-left img-responsive" src="static/Carl_Wurz_sm.jpg" style="max-width: 100%; height:auto;">
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-8 col-lg-10">
-                  <h1>Carl Wurz<br /><small>Counselling Psychologist</small></h1>
+                  <h1><span itemprop="name"><span itemprop="givenName">Carl</span> <span itemprop="familyName">Wurz</span></span><br /><small itemprop="jobTitle">Counselling Psychologist</small></h1>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <p class="card-text">I am a counselling psychologist working in Port Alfred.  I also have a practice in Grahamstown on Wednesdays.  I work with clients of all ages, including children (play therapy).  I qualified as a Counselling Psychologist at Rhodes University and am registered with the Health Professionals Council of South Africa. I have a holistic approach to therapy. Whereas my therapeutic modality is principally psychodynamic, I also combine aspects of physiology, neuroscience and mindfulness when working with clients. I also do neuropsychological and career assessments for children and adults. I am fluent in both English and Afrikaans.</p>
+                  <p>I am a counselling psychologist working in Port Alfred.  I also have a practice in Grahamstown on Wednesdays.  I work with clients of all ages, including children (play therapy).  I qualified as a Counselling Psychologist at Rhodes University and am registered with the Health Professionals Council of South Africa. I have a holistic approach to therapy. Whereas my therapeutic modality is principally psychodynamic, I also combine aspects of physiology, neuroscience and mindfulness when working with clients. I also do neuropsychological and career assessments for children and adults. I am fluent in both English and Afrikaans.</p>
                 </div>
               </div>
             </div>
@@ -40,37 +44,38 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="panel panel-default">
-                    <div class="panel-heading"><h4>Email Address</h4></div>
-                    <div class="panel-body">carl@carlwurz.co.za</div>
+                    <div class="panel-heading"><h4><i class="fa fa-envelope"></i> Email Address</h4></div>
+                    <div class="panel-body" itemprop="email"><a href="mailto:carl@carlwurz.co.za">carl@carlwurz.co.za</a></div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="panel panel-default">
-                    <div class="panel-heading"><h4>Cell Number</h4></div>
-                    <div class="panel-body">082 908 1588</div>
+                    <div class="panel-heading"><h4><i class="fa fa-phone"></i> Cell Number</h4></div>
+                    <div class="panel-body" itemprop="telephone"><a href="tel:+27829081588">082 908 1588</a></div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="panel panel-default">
-                    <div class="panel-heading"><h4>Port Alfred <small>(Monday, Tuesday, Thursday, Friday)</small></h4></div>
-                    <div class="panel-body">
-                      <a href="https://goo.gl/maps/nxPsQRYMnPq" target="_blank">4 Cove Lane</a>
+                    <div class="panel-heading"><h4><i class="fa fa-map-marker"></i> Port Alfred <small>(Monday, Tuesday, Thursday, Friday)</small></h4></div>
+                    <div class="panel-body" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                       <button type="button" class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#PortAlfredModal"><i class="fa fa-map"></i> View Map</button>
+                      <a href="https://goo.gl/maps/nxPsQRYMnPq" target="_blank"><span itemprop="streetAddress">4 Cove Lane</span><span class="hidden">, </span><span class="hidden" itemprop="addressLocality">Port Alfred</span><span class="hidden">, </span><span class="hidden" itemprop="addressRegion">Eastern Cape</span><span class="hidden">, </span><span class="hidden" itemprop="addressCountry">South Africa</span></a><br />Corner of Hirtzel Street and Cove Lane <small>(Cove Lane does not appear on google maps.)</small>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="panel panel-default">
-                    <div class="panel-heading"><h4>Grahamstown <small>(Wednesday)</small></h4></div>
-                    <div class="panel-body">
-                      <a href="https://goo.gl/maps/AYEfFDFMpvr" target="_blank">Health and Sports Centre, African Street</a>
+                    <div class="panel-heading"><h4><i class="fa fa-map-marker"></i> Grahamstown <small>(Wednesday)</small></h4></div>
+                    <div class="panel-body" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                       <button type="button" class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#GrahamstownModal"><i class="fa fa-map"></i> View Map</button>
+                      <a href="https://goo.gl/maps/AYEfFDFMpvr" target="_blank"><span itemprop="streetAddress">Health and Sports Centre, African Street</span><span class="hidden">, </span><span class="hidden" itemprop="addressLocality">Grahamstown</span><span class="hidden">, </span><span class="hidden" itemprop="addressRegion">Eastern Cape</span><span class="hidden">, </span><span class="hidden" itemprop="addressCountry">South Africa</span></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="panel panel-default">
-                    <div class="panel-heading"><h4>Online</h4></div>
+                    <div class="panel-heading"><h4><i class="fa fa-external-link"></i> Online</h4></div>
                     <div class="panel-body">
                       <a href="https://web.facebook.com/Carl-Wurz-Psychologist-107452659756773/"><i class="fa fa-facebook-official"></i> Facebook</a><br />
                       <a href="https://www.linkedin.com/in/carl-wurz-39975915"><i class="fa fa-linkedin-square"></i> Linkedin</a>
@@ -87,7 +92,7 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">4 Cove Lane, Port Alfred</h5>
+              <h5 class="modal-title" id="PAModalLabel">4 Cove Lane, Port Alfred</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -103,7 +108,7 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Health and Sports Centre, African Street</h5>
+              <h5 class="modal-title" id="GTModalLabel">Health and Sports Centre, African Street</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
